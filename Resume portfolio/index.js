@@ -1,4 +1,6 @@
-// Created by M̶a̶n̶ ̶O̶f̶ ̶A̶c̶t̶i̶o̶n̶
+var user = prompt("Please enter your name");
+alert("Hi "+ user +", Welcome to the official Website of Kamarhati Student's Group");
+
 $(document).ready(function(){
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
         $(this).toggleClass('open');
